@@ -11,9 +11,10 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/timeTextView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:text="00:00:00"
+        android:text="00:00:000"
         android:textSize="72sp"
         android:gravity="center"
         android:layout_weight="1"/>
@@ -25,6 +26,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/btnStart"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Play"
@@ -35,6 +37,7 @@
             android:background="@color/colorPrimary"/>
 
         <Button
+            android:id="@+id/btnReset"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Reset"
